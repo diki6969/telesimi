@@ -11,7 +11,7 @@ def handle_message(bot, update):
     # Kirim respons ke pengguna
     bot.send_message(chat_id=update.message.chat_id, text=response_text)
     
-updater = Updater(token='YOUR_TELEGRAM_BOT_TOKEN')
+updater = Updater(token='6059060665:AAG0LZLVdkPR6CHVKWtdagvTBHd-krkMRrI')
 dispatcher = updater.dispatcher
 dispatcher.add_handler(CommandHandler('message', handle_message))
 
